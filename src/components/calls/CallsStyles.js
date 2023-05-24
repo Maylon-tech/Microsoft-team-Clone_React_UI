@@ -3,32 +3,33 @@ import styled from 'styled-components'
 // Calls Container
 export const Container = styled.div`
   background-color: gray;
-  height: 100vh;
-  text-align: center;
+  width: 100%;
+  height: 94%;
+  flex: 1;
 `
 
 // Calls Body
 export const Body = styled.div`
   display: flex;
+  width: 100%;
+  height: 100vh;
 `
 
 export const SidebarContent = styled.div`
+  display: flex;
   flex: 1;
-  height: 40vh; 
   background-color: orange;
 `
 
-
-
 export const LeftFoldContent = styled.div`
-  flex: 2;
-  height: 40vh; 
+  display: flex;
+  flex: 3;
   background-color: blueviolet;
 `
 
 export const RightFoldContent = styled.div`
-  flex: 3;
-  height: 40vh; 
+  display: flex;
+  flex: 11;
   background-color: orangered;
 `
 

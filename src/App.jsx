@@ -1,4 +1,3 @@
-import './App.css'
 import Calls from './components/calls/Calls'
 
 function App() {
